@@ -8006,3 +8006,41 @@ a:visited {
   }
 }
 /*# sourceMappingURL=cretech.css.map */
+
+
+/* styles of  our services */
+@media (max-width: 798px) {
+  #imgbox{
+    display:block;
+  }
+  #img{
+    display:none;
+  }
+#img img{
+  width:500px;
+  height:auto;
+  border-radius: 10px;
+  }
+#forex{
+    display: none;
+  }
+
+#forex h4{
+    width: 50%;
+  }
+
+}
+
+
+#forex h4{
+  height:auto;
+  width: 90%;
+  align-items:center;
+}
+#img img{
+  width: 80%;
+  border-radius: 10px;
+}
+
+
+
