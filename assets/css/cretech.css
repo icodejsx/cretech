@@ -8009,24 +8009,19 @@ a:visited {
 
 
 /* styles of  our services */
-@media (max-width: 798px) {
-  #imgbox{
-    display:block;
-  }
-  #img{
-    display:none;
-  }
+@media (max-width: 768px) {
+ 
 #img img{
-  width:500px;
-  height:auto;
+  width:370px !important;
+  height: auto;
   border-radius: 10px;
   }
 #forex{
-    display: none;
+  width:auto;
   }
 
 #forex h4{
-    width: 50%;
+    width:100% !important;
   }
 
 }
@@ -8038,8 +8033,8 @@ a:visited {
   align-items:center;
 }
 #img img{
-  width: 80%;
-  border-radius: 10px;
+  width: 100%;
+
 }
 
 
