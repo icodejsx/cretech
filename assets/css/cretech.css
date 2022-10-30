@@ -8031,12 +8031,26 @@ a:visited {
 
 #forex h4{
   height:auto;
-  width: 90%;
+  width: 100%;
   align-items:center;
+  font-size:20px;
 }
 #img img{
   width: 100%;
 
+}
+
+#forex h2{
+  width: 100%;
+  display:flex;
+  align-items:right;
+}
+
+@media (max-width: 768px){
+  #about{
+    width:100% !important;
+    
+  }
 }
 
 
