@@ -8017,11 +8017,12 @@ a:visited {
   border-radius: 10px;
   }
 #forex{
-  width:auto;
+  width:100% !important;
   }
 
 #forex h4{
-    width:100% !important;
+    width:109% !important;
+    font-size:15px;
   }
 
 }
