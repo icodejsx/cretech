@@ -1440,6 +1440,8 @@ a:visited {
   color: var(--cretech-black, #12062c);
 }
 
+
+
 /***********************
 * Pricing
 ***********************/
@@ -1456,9 +1458,9 @@ a:visited {
 
 .pricing-one {
   position: relative;
-}
-
-.pricing-one__shape {
+  }
+  
+  .pricing-one__shape {
   content: '';
   position: absolute;
   top: 0;
@@ -1467,41 +1469,41 @@ a:visited {
   background-repeat: no-repeat;
   height: 688px;
   display: none;
-}
-
-@media (min-width: 1200px) {
+  }
+  
+  @media (min-width: 1200px) {
   .pricing-one__shape {
     display: block;
   }
-}
-
-.pricing-one .container {
+  }
+  
+  .pricing-one .container {
   position: relative;
-}
-
-.pricing-one .section-title {
+  }
+  
+  .pricing-one .section-title {
   padding-bottom: 30px;
-}
-
-.pricing-one__text {
+  }
+  
+  .pricing-one__text {
   margin-bottom: 39px;
-}
-
-.pricing-one__content {
+  }
+  
+  .pricing-one__content {
   padding-bottom: 130px;
-}
-
-@media (min-width: 992px) {
+  }
+  
+  @media (min-width: 992px) {
   .pricing-one__content {
     padding-bottom: 0;
   }
-}
-
-.pricing-one__items {
+  }
+  
+  .pricing-one__items {
   position: relative;
-}
-
-.pricing-one__items::after {
+  }
+  
+  .pricing-one__items::after {
   content: '';
   position: absolute;
   top: 0;
@@ -1511,9 +1513,9 @@ a:visited {
   background-image: url(../images/shapes/pricing-one-bg-1-1.png);
   background-position: left center;
   background-repeat: no-repeat;
-}
-
-.pricing-one__items::before {
+  }
+  
+  .pricing-one__items::before {
   position: absolute;
   content: '';
   width: 10000px;
@@ -1521,22 +1523,22 @@ a:visited {
   background-color: var(--cretech-primary, #6a2dec);
   top: -80px;
   bottom: -50px;
-}
-
-@media (min-width: 768px) {
+  }
+  
+  @media (min-width: 768px) {
   .pricing-one__items::before {
     bottom: -80px;
   }
-}
-
-@media (min-width: 992px) {
+  }
+  
+  @media (min-width: 992px) {
   .pricing-one__items::before {
     top: -120px;
     bottom: -120px;
   }
-}
-
-.pricing-one__circle {
+  }
+  
+  .pricing-one__circle {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -1546,22 +1548,22 @@ a:visited {
       grid-template-columns: repeat(2, 1fr);
   margin-bottom: 45px;
   margin-top: 6px;
-}
-
-@media (min-width: 1200px) {
+  }
+  
+  @media (min-width: 1200px) {
   .pricing-one__circle {
     padding-right: 45px;
   }
-}
-
-.pricing-one__circle .circle-progress {
+  }
+  
+  .pricing-one__circle .circle-progress {
   position: relative;
   display: block;
   width: 125px;
   height: 125px;
-}
-
-.pricing-one__circle .circle-progress span {
+  }
+  
+  .pricing-one__circle .circle-progress span {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1572,33 +1574,33 @@ a:visited {
   color: var(--cretech-black, #12062c);
   font-weight: bold;
   line-height: 1em;
-}
-
-.pricing-one__circle__title {
+  }
+  
+  .pricing-one__circle__title {
   margin: 0;
   font-size: 20px;
   font-weight: bold;
   color: var(--cretech-black, #12062c);
   letter-spacing: -0.05em;
   margin-top: 15px;
-}
-
-@media (min-width: 992px) {
+  }
+  
+  @media (min-width: 992px) {
   .pricing-one__circle__title {
     text-align: center;
     padding-right: 30px;
   }
-}
-
-@media (min-width: 1200px) {
+  }
+  
+  @media (min-width: 1200px) {
   .pricing-one__circle__title {
     padding-left: 15px;
     padding-right: 0;
     text-align: left;
   }
-}
-
-.pricing-card-one {
+  }
+  
+  .pricing-card-one {
   background-image: url(../images/shapes/price-card-bg-1-1.png);
   background-position: bottom right;
   background-repeat: no-repeat;
@@ -1608,15 +1610,15 @@ a:visited {
           box-shadow: 0px 0px 43px 0px rgba(0, 0, 0, 0.07);
   padding: 50px;
   margin-bottom: 30px;
-}
-
-@media (min-width: 768px) {
+  }
+  
+  @media (min-width: 768px) {
   .pricing-card-one {
     margin-bottom: 0;
   }
-}
-
-.pricing-card-one__name {
+  }
+  
+  .pricing-card-one__name {
   text-align: right;
   text-transform: uppercase;
   color: var(--cretech-black, #12062c);
@@ -1626,72 +1628,72 @@ a:visited {
   line-height: 1em;
   margin-bottom: 13px;
   margin-bottom: 2px;
-}
-
-.pricing-card-one__price {
+  }
+  
+  .pricing-card-one__price {
   text-align: right;
   font-size: 38px;
   font-weight: bold;
   color: var(--cretech-primary, #6a2dec);
   line-height: 1em;
   margin-top: 11px;
-}
-
-@media (min-width: 768px) {
+  }
+  
+  @media (min-width: 768px) {
   .pricing-card-one__price {
     font-size: 45px;
   }
-}
-
-@media (min-width: 992px) {
+  }
+  
+  @media (min-width: 992px) {
   .pricing-card-one__price {
     font-size: 52px;
   }
-}
-
-@media (min-width: 1200px) {
+  }
+  
+  @media (min-width: 1200px) {
   .pricing-card-one__price {
     font-size: 60px;
   }
-}
-
-.pricing-card-one__time {
+  }
+  
+  .pricing-card-one__time {
   text-align: right;
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 33px;
-}
-
-.pricing-card-one__list {
+  }
+  
+  .pricing-card-one__list {
   margin: 0;
   padding: 0;
   list-style: none;
   margin-bottom: 30px;
-}
-
-.pricing-card-one__list li {
+  }
+  
+  .pricing-card-one__list li {
   position: relative;
   padding-left: 37px;
   font-weight: 400;
-}
-
-.pricing-card-one__list li + li {
+  }
+  
+  .pricing-card-one__list li + li {
   margin-top: 8px;
-}
-
-.pricing-card-one__list li > i {
+  }
+  
+  .pricing-card-one__list li > i {
   position: absolute;
   top: 6px;
   left: 0;
   font-size: 16px;
   color: var(--cretech-secondary, #9c2ede);
-}
-
-.pricing-card-one__btns {
+  }
+  
+  .pricing-card-one__btns {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
+  }
 
 /***********************
 * Work Process
